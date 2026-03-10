@@ -8,7 +8,7 @@ import { EVENT_CONFIG } from "@/lib/constants";
  */
 export function AboutSection() {
   return (
-    <section id="about" className="py-24 px-4">
+    <section id="about" className="py-24 px-4" style={{ background: "linear-gradient(180deg, rgba(160, 140, 190, 0.06) 0%, rgba(160, 140, 190, 0.03) 50%, transparent 100%)" }}>
       <div className="container mx-auto max-w-6xl">
         {/* Section Header */}
         <div className="mb-16 text-center">

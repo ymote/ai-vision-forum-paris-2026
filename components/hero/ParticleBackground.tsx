@@ -103,7 +103,7 @@ function ParticleNetwork() {
         </bufferGeometry>
         <pointsMaterial
           size={0.1}
-          color="#40826D"
+          color="#5d84a8"
           sizeAttenuation
           transparent
           opacity={0.8}
@@ -113,7 +113,7 @@ function ParticleNetwork() {
       {/* Connections */}
       <lineSegments ref={linesRef}>
         <bufferGeometry />
-        <lineBasicMaterial color="#E6B74C" transparent opacity={0.15} />
+        <lineBasicMaterial color="#ca7c81" transparent opacity={0.15} />
       </lineSegments>
     </>
   );
